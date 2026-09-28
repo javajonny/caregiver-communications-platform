@@ -1,0 +1,10 @@
+// Shared signing configuration (committed).
+// Personal values (Apple Team ID) live in Signing.local.xcconfig, which is gitignored.
+// Copy Signing.local.xcconfig.example -> Signing.local.xcconfig and fill in your values.
+//
+// For CI / command line you can also override without a local file:
+//   xcodebuild ... DEVELOPMENT_TEAM="$APPLE_TEAM_ID"
+
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"

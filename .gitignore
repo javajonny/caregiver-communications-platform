@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+.DS_Store
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Certificates and keys
+*.pem
+
+# file to restart Docker containers, fill database with sample data, and start logging
+restart.zsh
+
+
+# file with mock data for the users and passwords
+mock_data.txt
+
+# Database backups (contain PHI - never commit!)
+backups/
+
+# Xcode: per-user state and personal signing config (Apple Team ID)
+xcuserdata/
+*.xcuserstate
+app/CaregiverApp/Config/Signing.local.xcconfig
+
+# Local Docker image archive and frontend dependencies
+python-3.11-slim.tar
+node_modules/
